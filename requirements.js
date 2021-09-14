@@ -31,8 +31,8 @@ Book
     - to update book title ✅
     - to update/add new author ✅
  - DELETE
-    - delete a book
-    - delete an author from the book
+    - delete a book ✅
+    - delete an author from the book ✅
 
 -------------------------------------------------
 
@@ -45,9 +45,9 @@ Authors
     - to add new author ✅
  - PUT
     - update author details ✅
-    - to update/add new book
+    - to update/add new book ✅
  - DELETE
-    - delete an author
+    - delete an author ✅
 
 -------------------------------------------------
 
@@ -59,11 +59,11 @@ Publication
  - POST
     - Add new publication ✅
  - PUT
-    - update publication ✅
-    - to update/add new book
+    - update publication name ✅
+    - to update/add new book ✅
  - DELETE
-    - delete a book from publication
-    - delete a publication
+    - delete a publication ✅
+    - delete a book from publication ✅
 */
 
 
@@ -83,6 +83,4 @@ Routes Needed in production
     /publications                            get all publications
     /publication/update/book/:isbn           update/add new book to a publication
     /publication/delete/book/:isbn/:pubId    delete a book from publication
-
-
 */
